@@ -1,0 +1,98 @@
+/* style sheet for Odin Recipe Project - Glazed Ham */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(88, 88, 88);
+}
+
+.header { 
+    background-color: lightgray;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+.footer {
+    background-color: lightgray;
+    width: 100%;
+    margin-top: auto;
+    flex: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size:x-large;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+
+ img {
+     width: 200px;
+     height: 200px;
+ }
+
+ .image {
+     margin-left: 50px;
+     margin-right: 50px;
+ }
+
+ .description {
+     width: 400px;
+     margin-right: 75px;
+     border-color: rgb(240, 130, 130);
+     border-style: solid;
+     color: white;
+ }
+
+ .ingredients {
+    border-color: rgb(240, 130, 130);
+    border-style: solid;
+    width: 400px;
+    color: white;
+    margin-left: 60px;
+ }
+
+ .top-div {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .steps {
+    border-color: rgb(240, 130, 130);
+    border-style: solid;
+    margin-top: 40px; 
+    color: white;
+ }
+
+  .content {
+      padding: 32px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+  }
+
+h2 {
+    text-align: center;
+    color: chocolate;
+}
+
+.return {
+    width: 100%;
+    color: black;
+}

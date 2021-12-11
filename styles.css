@@ -1,0 +1,71 @@
+/* Style Sheet for Odin Recipe Project */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(88, 88, 88);
+}
+
+.header { 
+    background-color: lightgray;
+    text-align: center;
+    width: 100%;
+}
+
+.footer {
+    background-color: lightgray;
+    width: 100%;
+    margin-top: auto;
+    flex: 0;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size:x-large;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .content {
+      padding: 32px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+  }
+
+  .card {
+      width: 200px;
+      padding: 20px;
+      display: flex; 
+      text-align: center;
+      border-style: ridge;
+      border-color:white;
+      padding: 10px;
+      margin: 20px;
+  }
+
+li:hover {
+    cursor:pointer;
+}
+
+
